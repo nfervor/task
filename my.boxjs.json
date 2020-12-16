@@ -1,7 +1,7 @@
 {
-  "id": "my.app.sub",
-  "name": "my应用订阅",
-  "author": "@whyour",
+  "id": "nfervor.app.sub",
+  "name": "nfervor应用订阅",
+  "author": "@nfervor",
   "icon": "https://avatars2.githubusercontent.com/u/22700758?s=88&u=26d911ccb8345dac955238c2ed6c572892ef924a&v=4",
   "repo": "https://github.com/nfervor/task",
   "apps": [
@@ -92,12 +92,13 @@
           "desc": "京喜工厂互助码.你自己的互助码."
         }
       ],
-      "author": "@whyour",
+      "author": "@nfervor",
       "repo": "https://github.com/nfervor/task/blob/main/shareCode-auto.js",
       "script": "https://raw.githubusercontent.com/nfervor/task/main/shareCode-auto.js",
       "icons": [
         "https://raw.githubusercontent.com/58xinian/icon/master/jdnc_mini.png",
         "https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png"
       ]
-     }
-    }
+    },
+  ]
+}
