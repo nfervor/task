@@ -1,6 +1,6 @@
 {
-  "id": "whyour.app.sub",
-  "name": "whyour应用订阅",
+  "id": "my.app.sub",
+  "name": "my应用订阅",
   "author": "@whyour",
   "icon": "https://avatars2.githubusercontent.com/u/22700758?s=88&u=26d911ccb8345dac955238c2ed6c572892ef924a&v=4",
   "repo": "https://github.com/nfervor/task",
@@ -99,4 +99,5 @@
         "https://raw.githubusercontent.com/58xinian/icon/master/jdnc_mini.png",
         "https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png"
       ]
-    },
+     }
+    }
