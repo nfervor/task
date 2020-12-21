@@ -2,8 +2,8 @@
  * @Author: whyour
  * @Github: https://github.com/whyour
  * @Date: 2020-11-20 10:42:06
- * @LastEditors: whyour
- * @LastEditTime: 2020-11-30 13:12:39
+ * @LastEditors: nfervor
+ * @LastEditTime: 2020-12-21 12:39:00
  */
 const $ = new Env("互助码");
 const shareCodes = [
@@ -13,6 +13,7 @@ const shareCodes = [
     mc: $.getdata("mc_shareCode1") || "MTAxODc2NTEzNDAwMDAwMDAyNzkyNjM4Mw==",
     ddgc: $.getdata("dd_shareCode1") || "P04z54XCjVWnYaS5kZ7fCKtjCEX",
     jxgc: $.getdata("jx_shareCode1") || "k3XRgh9SqTEODDhQVrfL1A==",
+	jdzz: $.getdata("jdzz_shareCode1") || "A3bngRiYxGp-83-puCOLg",
   },
   {
     zd: $.getdata("zd_shareCode2") || "",
@@ -20,6 +21,7 @@ const shareCodes = [
     mc: $.getdata("mc_shareCode2") || "",
     ddgc: $.getdata("dd_shareCode2") || "",
     jxgc: $.getdata("jx_shareCode2") || "",
+	jdzz: $.getdata("jdzz_shareCode2") || "",
   },
 ];
 $.result = [];
@@ -58,6 +60,12 @@ $.random = Math.floor(Math.random() * 60);
       (await create(
         `http://api.turinglabs.net/api/v1/jd/jxfactory/create/${jxgc}/`,
         "京喜工厂"
+      ));
+	  await $.wait($.random);
+    jdzz &&
+      (await create(
+        `https://code.chiang.fun/api/v1/jd/jdzz/create/${jdzz}/`,
+        "京东赚赚"
       ));
   }
   await showMsg();
