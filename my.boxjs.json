@@ -165,12 +165,6 @@
                     "desc":"记录上次执行的位置，可以控制从第几个body开始执行"
                 }
             ],
-            "author":"@syzzzf",
-            "repo":"https://github.com/songyangzz/QuantumultX/blob/master/YOUTH_READ.js",
-            "icons":[
-                "https://raw.githubusercontent.com/Orz-3/mini/master/youth.png",
-                "https://raw.githubusercontent.com/Orz-3/task/master/youth.png"
-            ],
             {   
                 "author":"@sunert",
                 "descs_html":[
