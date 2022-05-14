@@ -114,6 +114,138 @@
 			"https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/youth.png",
 			"https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/youth.png"
 		]
+    },
+		{
+		"author":"@sunert",
+		"keys":["youth_autoread","autotime_zq"],
+		"settings":[
+			{
+				"id":"youth_cut",
+				"val":false,
+				"name":"缩减请求",
+				"type":"boolean",
+				"desc":"自动删除收益为0或者错误的阅读请求，使用完后请立即关闭，避免清空阅读请求"
+			}
+		],
+		"repo":"https://github.com/nfervor/task/blob/main/Scripts/YOUTH/Youth_Read.js",
+		"id":"youthRead",
+		"script":"https://raw.githubusercontent.com/nfervor/task/main/Scripts/YOUTH/Youth_Read.js",
+		"name":"中青自动阅读",
+		"icons":[
+			"https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/youth.png",
+			"https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/youth.png"
+		]
+    },
+	{
+      "id": "shareCode",
+      "name": "互助码",
+      "keys": [
+        "zd_shareCode1",
+        "nc_shareCode1",
+        "mc_shareCode1",
+        "dd_shareCode1",
+        "jx_shareCode1",
+	    "jdzz_shareCode1",
+        "zd_shareCode2",
+        "nc_shareCode2",
+        "mc_shareCode2",
+        "dd_shareCode2",
+        "jx_shareCode2",
+	    "jdzz_shareCode2"
+     ],
+      "settings": [
+        {
+          "id": "zd_shareCode1",
+          "name": "种豆得豆互助码1",
+          "val": "",
+          "type": "text",
+          "desc": "种豆得豆互助码.你自己的互助码."
+        },
+        {
+          "id": "nc_shareCode1",
+          "name": "东东农场互助码1",
+          "val": "",
+          "type": "text",
+          "desc": "东东农场互助码.你自己的互助码."
+        },
+        {
+          "id": "mc_shareCode1",
+          "name": "东东萌宠互助码1",
+          "val": "",
+          "type": "text",
+          "desc": "东东萌宠互助码.你自己的互助码."
+        },
+        {
+          "id": "dd_shareCode1",
+          "name": "东东工厂互助码1",
+          "val": "",
+          "type": "text",
+          "desc": "东东工厂互助码.你自己的互助码."
+        },
+        {
+          "id": "jx_shareCode1",
+          "name": "京喜工厂互助码1",
+          "val": "",
+          "type": "text",
+          "desc": "京喜工厂互助码.你自己的互助码."
+        },
+		 {
+          "id": "jdzz_shareCode1",
+          "name": "京东赚赚互助码1",
+          "val": "",
+          "type": "text",
+          "desc": "京东赚赚互助码.你自己的互助码."
+        },
+        {
+          "id": "zd_shareCode2",
+          "name": "种豆得豆互助码2",
+          "val": "",
+          "type": "text",
+          "desc": "种豆得豆互助码.你自己的互助码."
+        },
+        {
+          "id": "nc_shareCode2",
+          "name": "东东农场互助码2",
+          "val": "",
+          "type": "text",
+          "desc": "东东农场互助码.你自己的互助码."
+        },
+        {
+          "id": "mc_shareCode2",
+          "name": "东东萌宠互助码2",
+          "val": "",
+          "type": "text",
+          "desc": "东东萌宠互助码.你自己的互助码."
+        },
+        {
+          "id": "dd_shareCode2",
+          "name": "东东工厂互助码2",
+          "val": "",
+          "type": "text",
+          "desc": "东东工厂互助码.你自己的互助码."
+        },
+        {
+          "id": "jx_shareCode2",
+          "name": "京喜工厂互助码2",
+          "val": "",
+          "type": "text",
+          "desc": "京喜工厂互助码.你自己的互助码."
+        },
+		 {
+          "id": "jdzz_shareCode2",
+          "name": "京东赚赚互助码2",
+          "val": "",
+          "type": "text",
+          "desc": "京东赚赚互助码.你自己的互助码."
+        }
+      ],
+      "author": "@nfervor",
+      "repo": "https://github.com/nfervor/task/blob/main/shareCode-auto.js",
+      "script": "https://raw.githubusercontent.com/nfervor/task/main/shareCode-auto.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdnc_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png"
+      ]
     }
   ]
 }
