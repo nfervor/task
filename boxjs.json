@@ -115,7 +115,7 @@
 			"https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/youth.png"
 		]
     },
-	{
+	  {
       "id": "shareCode",
       "name": "互助码",
       "keys": [
@@ -216,6 +216,52 @@
           "val": "",
           "type": "text",
           "desc": "京东赚赚互助码.你自己的互助码."
+        }
+      ],
+      "author": "@nfervor",
+      "repo": "https://github.com/nfervor/task/blob/main/shareCode-auto.js",
+      "script": "https://raw.githubusercontent.com/nfervor/task/main/shareCode-auto.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdnc_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png"
+      ]
+    },
+    {
+      "id": "STTLink",
+      "name": "STTLink Cookie",
+      "keys": [
+        "sttlinkcookie"
+     ],
+      "settings": [
+        {
+          "id": "sttlink_cookie",
+          "name": "Cookie",
+          "val": "",
+          "type": "text",
+          "desc": "STTLink Cookie"
+        }
+      ],
+      "author": "@nfervor",
+      "repo": "https://github.com/nfervor/task/blob/main/shareCode-auto.js",
+      "script": "https://raw.githubusercontent.com/nfervor/task/main/shareCode-auto.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdnc_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png"
+      ]
+    },
+    {
+      "id": "SAIC",
+      "name": "TMS",
+      "keys": [
+        "tms_cookie"
+     ],
+      "settings": [
+        {
+          "id": "tms_cookie",
+          "name": "Cookie",
+          "val": "",
+          "type": "text",
+          "desc": "TMS Cookie"
         }
       ],
       "author": "@nfervor",
